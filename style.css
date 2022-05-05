@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Libre Bodoni', serif;
+    background-color: rgb(166, 242, 217);
+}
+
+hr{
+    width: 800px;
+    margin: 0 auto;
+
+}
+header{
+    width: 800px;
+    text-align: center;
+    border: 1px solid plum;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.avatar{
+    height: 300px;
+    width: auto;
+}
+
+section, footer{
+    width: 800px;
+    border: 1px solid plum;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+footer{
+    padding: 20px;
+}
