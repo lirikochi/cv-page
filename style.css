@@ -24,8 +24,9 @@ header{
 }
 
 .avatar{
-    height: 300px;
-    width: auto;
+    width: 300px;
+    height: auto;
+    overflow: scroll;
 }
 
 section, footer{
@@ -33,6 +34,20 @@ section, footer{
     border: 1px solid plum;
     padding: 10px;
     margin: 5px auto;
+}
+
+.field{
+    clear: both;
+    text-align: right;
+}
+
+.linkedinicon{
+    width: 40px;
+    height: auto;
+}
+.github{
+    width: 40px;
+    height: auto;
 }
 
 footer{
